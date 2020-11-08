@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Seminarski rad">
+        <meta name="keywords" content="Microsoft Azure, seminarski rad">
+        <meta name="author" content="Aleksandar Zaganovic">
+        <title>Namjena</title>
+        <style type="text/css">
+#text{
+	color:#09F;
+	}
+.accordionItem{
+    float:left;
+    display:block;
+    width:100%;
+    box-sizing: border-box;
+    font-family:'Open-sans',Arial,sans-serif;
+}
+.accordionItemHeading{
+    cursor:pointer;
+    margin:0px 0px 10px 0px;
+    padding:10px;
+    background:#09F;
+    color:#FFF;
+	
+    width:100%;
+    -webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+        box-sizing: border-box;
+}
+.close .accordionItemContent{
+    height:0px;
+    transition:height 1s ease-out;
+    -webkit-transform: scaleY(0);
+	-o-transform: scaleY(0);
+	-ms-transform: scaleY(0);
+	transform: scaleY(0);
+    float:left;
+    display:block;
+    
+    
+}
+.open .accordionItemContent{
+        padding: 20px;
+    background-color:#fff;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    display:block;
+    -webkit-transform: scaleY(1);
+	-o-transform: scaleY(1);
+	-ms-transform: scaleY(1);
+	transform: scaleY(1);
+    -webkit-transform-origin: top;
+	-o-transform-origin: top;
+	-ms-transform-origin: top;
+	transform-origin: top;
+
+	-webkit-transition: -webkit-transform 0.4s ease-out;
+	-o-transition: -o-transform 0.4s ease;
+	-ms-transition: -ms-transform 0.4s ease;
+	transition: transform 0.4s ease;
+        box-sizing: border-box;
+}
+
+.open .accordionItemHeading{
+    margin:0px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color:#06F;
+    color:#fff;
+}
+.accordionItemContent ul{
+    padding-left: 50px;
+}
+header{
+    background:white;
+    color:#000;
+    padding-top: 15px;
+    min-height: 80px;
+    border-bottom:#09F 1px solid;
+}
+header a{
+    color: #white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 15px 20px 0 20px;
+}
+header #logo{
+    float: left;
+    margin-bottom: 10px;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a{
+    color:#09F;
+    font-weight: bold;
+}
+header a:hover{
+    color:#09F;
+	font-weight: bold;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden; 
+}
+.main-container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+#startup {
+	 !important;display:block;
+	 !important;margin-left: auto; 
+	 !important; margin-right:auto;
+	}
+#publicsector{
+	 !important;display:block;
+	 !important;margin-left: auto; 
+	 !important; margin-right:auto;
+	}  
+#freeaccount{
+	 !important;display:block;
+	 !important;margin-left: auto; 
+	 !important; margin-right:auto;
+	}
+#link {
+	color:#003;
+}
+footer{
+    border-top: black 2px solid;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color:#09F;
+    text-align: center;
+	position:absolute;
+    bottom:0;
+	width:100%;
+}
+@media(max-width: 768px){
+    #boxes .box,
+    header #logo,
+    header nav,
+    header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+        </style>
+</head>
+
+<body>
+
+  <header>
+   <div class="container">
+                <div id="logo">
+                    <img src="logo.jpg" width="80px" height="70px">
+                </div>
+                 <nav>
+                    <ul>
+                        <li> <a href="Microsoft azure.html">POČETNA</a></li>
+                        <li  class="current"><a href="Namjena.html">NAMJENA</a></li>
+                        <li><a href="kalkulator troskova.html">KALKULATOR TROŠKOVA</a></li>
+                        <li><a href="kontakt.html">KONTAKT</a></li>
+                    </ul>
+                </nav>
+    </div>
+    </header>
+    
+     <section id="text">
+            <div class="main-container">
+                <h1>Namjena Microsoft Azura</h1>
+                <div class="accordionWrapper">
+                    <div class="accordionItem open">
+                          <h2 class="accordionItemHeading">Azure za StartUp kompanije</h2>
+                          <div class="accordionItemContent">
+                            <p>Azure za <b>StartUp kompanije</b>. Koristeći vrlo intuitivan i jednostavan Microsoft Azure portal, osnivač nove kompanije u mogućnosti je da sa nekoliko klikova formira kompletnu IT infrastrukturu koja podrazumjeva kako servere u hardverskom smislu, infrastrukturne servise (Virtual machines, BLOB Storage, Virtula Network, Windows Server, Linux Server…) tako i platformske servise (Azure Active Directory, Office, Visual Studio, SQL Database, Machine Learning…). U takvom okruženju moguće je koristiti preko 2700 aplikacija uključujući i aplikacije drugih (Sales Foce, SAP…)</p>
+                                <p>&nbsp;</p>
+                                <img id="startup" src="start up.jpg" width="500px" height="280px">
+                                <p>&nbsp;</p>
+                          </div>
+                  </div>
+                    
+                        <div class="accordionItem close">
+                          <h2 class="accordionItemHeading">Azure za Enterprise kompanije</h2>
+                          <div class="accordionItemContent">
+                            <p>Azure za <b>Enterprise kompanije</b>. Azure podjednako dobro funkcioniše i u najvećim sistemima. Takvi sistemi najčešće imaju svoju infrastrukturu, ali kada im je potrebno da ih prošire, ne moraju pokretati infrastrukturne investicije. Kroz hibridni način korištenja svoju infrastrukturu mogu proširiti u Cloud. Upotrebom Azure virtualne mreže (Azure Virtual Network) i Azure aktivnog direktorijuma (Azure Activ Directory) mogu preslikavati svoje postojeće servere i tako povećati kapacitet, obezbjediti veću sigurnost podataka (Data Recovery) ili pokrenuti servere koji su im potrebni samo na određeno vrijeme.</p>
+                          </div>
+                        </div>
+                    
+                        <div class="accordionItem close">
+                          <h2 class="accordionItemHeading">Azure za javni sektor</h2>
+                          <div class="accordionItemContent">
+                            <p>Azure za <b>javni sektor</b>. Kompanije koje tokom svog poslovanja imaju potrebu za snažnom infrastrukturom ali samo u određenom periodu godine, svoju infrastrukturu mogu skalirati u odnosu na prosječne potrebe, a Microsoft Azure podesiti tako da se aktivira samo u određenim trenucima. Na taj način mogu optimizovati troškove, a sistem učiniti otpornim na mogućnost otkaza zbog preopterećenja.</p>
+                          <img id="publicsector" src="public sector.jpg" width="600" height="250" alt="Public sector"> </div>
+                        </div>
+                        
+                        <div class="accordionItem close">
+                            <h2 class="accordionItemHeading">Azure – free account</h2>
+                                <div class="accordionItemContent">
+                                   <p>Azure <b>free account</b>.
+                                      Isprobajte Azure besplatno putem linka:<a id="link" href="https://azure.microsoft.com/en-us/free/?b=17.09c"> Free account </a>  </p> 
+                          <img id="freeaccount" src="free account.png" width="600" height="250" alt="Free account"></div> 
+                        </div>
+                      <script>var accItem = document.getElementsByClassName('accordionItem');
+                    var accHD = document.getElementsByClassName('accordionItemHeading');
+                    for (i = 0; i < accHD.length; i++) {
+                        accHD[i].addEventListener('click', toggleItem, false);
+                    }
+                    function toggleItem() {
+                        var itemClass = this.parentNode.className;
+                        for (i = 0; i < accItem.length; i++) {
+                            accItem[i].className = 'accordionItem close';
+                        }
+                        if (itemClass == 'accordionItem close') {
+                            this.parentNode.className = 'accordionItem open';
+                        }
+                    }</script>
+                
+            </div> 
+    </section>
+    
+    <footer>
+           <p>© 2019 empirica.ba | Seminarski rad "MICROSOFT AZURE" |Aleksandar Zaganovic</p>
+        </footer>
+</body>
+</html>
